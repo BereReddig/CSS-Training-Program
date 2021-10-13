@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    color: white;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    height: 300px;
+    padding: 50px;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+label:hover {
+    background-color: rgb(176, 123, 226);
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.cA,
+.cB,
+.cC {
+    display: none;
+}
+
+input[id=r1]:checked ~ .content .cA,
+input[id=r2]:checked ~ .content .cB,
+input[id=r3]:checked ~ .content .cC {
+    display: block;
+}
+
+

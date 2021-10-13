@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+    background-color: #f5f7f8;
+    font-family: system-ui; 
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    width: 40%;
+    height: 600px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2); 
+}
+
+.top {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg');
+    background-repeat: no-repeat;
+    height: 290px;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.bottom {
+    line-height: 1.4; 
+    padding: 20px 50px;
+}
+
+h1 {
+    font-size: 170%;
+    font-weight: 700;
+    margin-top: 1%;
+}
+
+article {
+    font-size: 142%;
+    font-weight: 100;
+    color: gray;
+    margin-bottom: 33px;
+}
+
+.author {
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #a7a7a6;
+    font-size: 120%;
+    font-weight: 600;
+}

@@ -1,0 +1,63 @@
+body{
+    box-sizing: border-box;
+    background-color: #262626;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/001fb9c9-6aa6-4a81-959b-6eab6d3961e1/d72g6je-b0e8b4a2-1079-4810-a2c6-31e3742832c2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wMDFmYjljOS02YWE2LTRhODEtOTU5Yi02ZWFiNmQzOTYxZTEvZDcyZzZqZS1iMGU4YjRhMi0xMDc5LTQ4MTAtYTJjNi0zMWUzNzQyODMyYzIucG5nIn1dXX0.mlK1cjSgPoYiNgNQJpz8p6U7T3dPT3hhEFKIhL2gU3c');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: 99% -154%;
+    background-size: 320px 413px;
+    padding: 70px 20px 30px 30px;
+    border: 30px solid #262626;
+    box-shadow: 7px 0px 0px 7px black;
+}
+
+div.exclusive {
+    background-color: #6595ed;
+    display: inline;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.content h1::first-letter {
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 35px;
+}
+
+article {
+    width: 50%;
+    margin-bottom: 35px;
+}
+
+span {
+    border: 1px solid;
+    padding: 5px 15px;
+}
+
+span.price {
+    border-radius: 25px 0px 0px 25px;
+    margin-right: -4px;
+    font-weight: 400;
+}
+
+span.add {
+    border-radius: 0px 25px 25px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+}

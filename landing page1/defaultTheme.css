@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+
+:root {
+    /* colors */
+    --bgImage-banner: url('./images/defaultTheme.jpg');
+    --text-shadow-nav-h2: 0 0 2px white;
+    --bg-color-section-even: #243b49;
+    --font-color-section-even: white;
+    --bg-color-section-odd: #f9bbac;
+    --font-color-section-odd: black;
+    --border-btn-up: 1px solid #5d6cdb;
+    --bg-color-btn-up: #9ea5d9;
+    --box-shadow-btn-up-hover: 0px 0px 6px #c9cdf0;
+
+    /* fonts */
+    --font-family-body: 'Inconsolata', monospace;
+    --font-size-menu: 1.2rem;
+    --font-color-links: white;
+    --font-size-banner-container: 1.5rem;
+    --font-family-banner-title: 'Stick No Bills', sans-serif;
+    --text-shadow-banner-title: 2px 2px 4px #714141, 0 0 6px #866464;
+    --box-shadow-section-article: 1px 1px 2px #837c7c;
+    --font-family-btn-up: 'Stick No Bills', sans-serif;
+}
