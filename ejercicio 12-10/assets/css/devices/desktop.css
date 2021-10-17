@@ -1,0 +1,60 @@
+ /*=============
+ Layout
+ =============*/
+#nav-toggle {
+    display: none;
+}
+
+.nav-label {
+    display: none;
+}
+
+nav.menu {
+    display: flex;
+    height: max-content;
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+nav.menu ul li {
+    margin-right: 20px;
+}
+
+nav.menu button {
+    background-color: #feffff;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
+
+
+.container-flex-50 {
+    display: flex;
+}
+
+.container-flex-50 .container-section {
+    flex-basis: 50%;
+}
+
+.container-flex-50 .left-1-img,
+.container-flex-50 .right-1-img {
+    height: unset;
+}
+
+.container-section.p-80 {
+    width: 50%;
+}
+
+.container-section.left-2-img,
+.container-section.right-2-img {
+    height: 400px;
+}
+
+.gallery-img {
+    flex-basis: 25%;
+}

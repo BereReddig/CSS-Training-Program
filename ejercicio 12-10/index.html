@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Landing Page 12-10-2021</title>
-        <link rel="stylesheet" href="./estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com [fonts.googleapis.com]">
         <link rel="preconnect" href="https://fonts.gstatic.com [fonts.gstatic.com]" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0100,200,300,400,500,600,700,800,900&display=swap [fonts.googleapis.com]" rel="stylesheet">
@@ -10,12 +11,21 @@
     </head>
     <body>
         <header>
+            <!-- NAVBAR-->
             <div class="container header-image">
                 <div class='container-flex'>
-                    <div class="title">
-                        <p>sunnyside</p>
+                    <div class="logo">
+                        <img src="./assets/images/logo.svg" alt="sunnyside logo">
                     </div>
-                    <nav>
+                    <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+                    <label for="nav-toggle" class="nav-label">
+                        <img
+                            src="./assets/images/icon-hamburger.svg"
+                            alt="hamburguer icon"
+                            class="hamburguer"
+                        />
+                    </label>
+                    <nav class="menu">
                         <ul>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Services</a></li>
@@ -28,12 +38,12 @@
                 </div>
                 <div class="center-title">
                     <h1>we are creatives</h1>
-                    <img src="./images/icon-arrow-down.svg" alt="">
+                    <img src="./assets/images/icon-arrow-down.svg" alt="">
                 </div>
             </div> <!-- /#container   -->
         </header>
         
-        <div class="container container-flex-50">
+        <div class="container container-flex-50 reverse">
             <div class="container-section p-80">
                 <h2>Transform your brand</h2>
                 <p>We are a full service creative agency 
@@ -41,15 +51,15 @@
                     Engage your clients through compelling 
                     visuals that do most of the marketing for you 
                 </p>
-                <a href="#" class="link yellow">Learn more </a>
+                <a href="#" class="link link-1">Learn more </a>
             </div>
-            <div class="container-section egg">
+            <div class="container-section left-1-img">
 
             </div>
         </div>
 
         <div class="container container-flex-50">
-            <div class="container-section cup">
+            <div class="container-section right-1-img">
                 
             </div>
             <div class="container-section p-80">
@@ -59,12 +69,12 @@
                     and copywriters, we'll build and extend your 
                     brand in digital places.  
                 </p>
-                <a href="#" class="link pink">Learn more </a>
+                <a href="#" class="link link-2">Learn more </a>
             </div>
         </div>
 
         <div class="container container-flex-50">
-            <div class="container-section cherry">
+            <div class="container-section left-2-img">
                 <h3>Graphic Design</h3>
                 <p>Great design makes you memorable. 
                     We deliver artwork that underscores 
@@ -72,7 +82,7 @@
                     potential clients attention.   
                 </p>
             </div>
-            <div class="container-section tangerine">
+            <div class="container-section right-2-img">
                 <h3>Photography</h3>
                 <p>Increase your credibility by getting 
                     the most stunning high-quality photos 
@@ -83,9 +93,9 @@
 
         <div class="container testimonials">
             <h4>client testimonials</h4>
-            <div class="container-flex">
+            <div class="container-flex users">
                 <div class="user-feedback">
-                    <img src="./images/image-emily.jpg" alt="emily">
+                    <img src="./assets/images/image-emily.jpg" alt="emily">
                     <p>We put our trust in Sunnyside and they delivered, 
                         making sure our needs were met and deadlines 
                         were always hit. 
@@ -95,7 +105,7 @@
                 </div>
     
                 <div class="user-feedback">
-                    <img src="./images/image-thomas.jpg" alt="thomas">
+                    <img src="./assets/images/image-thomas.jpg" alt="thomas">
                     <p>Sunnyside's enthusiasm coupled with their keen 
                         interest in our brand's succes made it a 
                         satisfying and ejoyable experience. 
@@ -105,7 +115,7 @@
                 </div>
     
                 <div class="user-feedback">
-                    <img src="./images/image-jennie.jpg" alt="jennie">
+                    <img src="./assets/images/image-jennie.jpg" alt="jennie">
                     <p>Incredible end result! Our sales increased over 
                         400% when we worked with Sunnyside. Highly 
                         recommended. 
@@ -117,19 +127,19 @@
         </div>
 
         <div class="gallery">
-            <img src="./images/desktop/image-gallery-milkbottles.jpg" 
+            <img src="./assets/images/desktop/image-gallery-milkbottles.jpg" 
                 alt="milkbottles" 
                 class="gallery-img"
             >
-            <img src="./images/desktop/image-gallery-orange.jpg" 
+            <img src="./assets/images/desktop/image-gallery-orange.jpg" 
                 alt="orange" 
                 class="gallery-img"
             >
-            <img src="./images/desktop/image-gallery-cone.jpg" 
+            <img src="./assets/images/desktop/image-gallery-cone.jpg" 
                 alt="cone" 
                 class="gallery-img"
             >
-            <img src="./images/desktop/image-gallery-sugarcubes.jpg" 
+            <img src="./assets/images/desktop/image-gallery-sugarcubes.jpg" 
                 alt="sugarcubes" 
                 class="gallery-img"
             >
@@ -148,19 +158,19 @@
                     </ul>
                 </nav>
                 <section class="icons">
-                    <img src="./images/icon-facebook.svg" 
+                    <img src="./assets/images/icon-facebook.svg" 
                         alt="facebook" 
                         class="icon"
                     >
-                    <img src="./images/icon-instagram.svg" 
+                    <img src="./assets/images/icon-instagram.svg" 
                         alt="instagram" 
                         class="icon"
                     >
-                    <img src="./images/icon-twitter.svg" 
+                    <img src="./assets/images/icon-twitter.svg" 
                         alt="twitter" 
                         class="icon"
                     >
-                    <img src="./images/icon-pinterest.svg" 
+                    <img src="./assets/images/icon-pinterest.svg" 
                         alt="pinterest" 
                         class="icon"
                     >

@@ -1,0 +1,122 @@
+/*=============
+Typography 
+=============*/ 
+nav.menu button {
+    font-family: var(--font-1);
+    font-size: var(--font-size-small);
+    text-transform: capitalize;
+    color: var(--bs-white);
+    font-weight: inherit;
+}
+
+.center-title h1 {
+    font-size: var(--font-size-bigger);
+}
+
+.container-section h2 {
+    font-size: var(--font-size-bigger);
+}
+
+.container-section p {
+    font-size: var(--font-size-medium);
+}
+
+.container-section a {
+    font-size: var(--font-size-medium);
+}
+
+.container-section h3 {
+    font-size: var(--font-size-medium);
+}
+
+/*=============
+ Layout
+ =============*/
+input[name='nav-toggle'] {
+    display: none;
+}
+
+.nav-label {
+    display: block!important;
+    cursor: pointer;
+}
+
+#nav-toggle:checked ~ nav.menu {
+    display: block;
+}
+
+nav.menu {
+    display: none;
+}
+
+nav.menu {
+    position: absolute;
+    left: 86%;
+    top: 50px;
+    background-color: var(--bg-mobile-menu);
+}
+
+nav.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+nav.menu ul li {
+    margin-right: unset;
+    transition-duration: 0.2s;
+    padding: 10px;
+    width: 100%;
+}
+
+nav.menu ul li:hover {
+    background: var(--bs-info);
+    margin-left: unset!important;
+}
+
+nav.menu button:hover {
+    background: var(--bs-info);
+}
+
+nav.menu button {
+    border: none;
+    padding: 10px!important;
+    background-color: var(--bg-mobile-menu);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border-radius: unset;
+    width: 100%;
+}
+
+.container-flex-50.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.container-section.p-80 a{
+    display: block;
+    margin: auto;
+    width: max-content;
+}
+
+.container-flex-50 .container-section.left-2-img,
+.container-flex-50 .container-section.right-2-img {
+    padding: 400px 80px 40px 80px;
+}
+
+.container-flex.users {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-flex.users .user-feedback {
+    text-align: center;
+}
+
+
+
+ 
